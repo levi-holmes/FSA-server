@@ -1,0 +1,25 @@
+{
+  "name": "fsa-server",
+  "version": "1.0.0",
+  "description": "Server to FSA",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levi-holmes/FSA-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levi-holmes/FSA-server/issues"
+  },
+  "homepage": "https://github.com/levi-holmes/FSA-server#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "knex": "^0.13.0",
+    "pg": "^7.0.2"
+  }
+}
